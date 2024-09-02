@@ -20,7 +20,7 @@ curl http://web-service.apps.svc.cluster.local
 
 | DNS Name                                      | Namespace | Resource Type | Root          | IP Address  |
 |-----------------------------------------------|-----------|---------------|---------------|-------------|
-| 10-244-1-2.default.pod.cluster.local          | default   | pod           | cluster.local | 10.244.1.2  |
+| 10-244-1-2.default.pod.cluster.local          | apps   | pod           | cluster.local | 10.244.1.2  |
 | web-service.apps.svc.cluster.local            | apps      | service       | cluster.local | 10.100.30.140 |
 
 #### Description of Table Columns:
@@ -33,7 +33,7 @@ curl http://web-service.apps.svc.cluster.local
 - **IP Address**: The internal IP address associated with the resource.
 
 #### Example Entries:
-- **Pod**: The DNS name `10-244-1-2.default.pod.cluster.local` resolves to a pod with the IP address `10.244.1.2` in the `default` namespace.
+- **Pod**: The DNS name `10-244-1-2.apps.pod.cluster.local` resolves to a pod with the IP address `10.244.1.2` in the `apps` namespace.
 - **Service**: The DNS name `web-service.apps.svc.cluster.local` resolves to a service with the IP address `10.100.30.140` in the `apps` namespace.
 
 
