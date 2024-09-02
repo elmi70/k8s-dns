@@ -22,7 +22,7 @@ This table provides information about the Kubernetes services and their DNS reso
 
 | Hostname     | Namespace | Type | Root         | IP Address    |
 |--------------|-----------|------|--------------|---------------|
-| web-service  | apps      | svc  | cluster.local| 10.107.37.188 |
+| web-service  | apps      | svc  | cluster.local| 10.100.30.140 |
 
 ## Description of Table Columns:
 
