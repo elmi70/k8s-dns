@@ -13,6 +13,7 @@ kubectl exec -it test -- curl http://web-service
 ```
 curl http://web-service.apps
 curl http://web-service.apps.svc
+curl http://web-service.apps.svc.cluster.local
 ```
 
 # Kubernetes Service Table
