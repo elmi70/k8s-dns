@@ -12,4 +12,5 @@ kubectl exec -it test -- curl http://web-service
 - For cross-namespace access, you need to specify the service name along with the namespace. From the test pod in the default namespace, run:
 ```
 curl http://web-service.apps
+curl http://web-service.apps.svc
 ```
