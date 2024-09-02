@@ -20,7 +20,7 @@ curl http://web-service.apps.svc.cluster.local
 
 | DNS Name                                      | Namespace | Resource Type | Root          | IP Address  |
 |-----------------------------------------------|-----------|---------------|---------------|-------------|
-| 10-244-1-2.default.pod.cluster.local          | apps   | pod           | cluster.local | 10.244.1.2  |
+| 10-244-1-2.apps.pod.cluster.local          | apps   | pod           | cluster.local | 10.244.1.2  |
 | web-service.apps.svc.cluster.local            | apps      | service       | cluster.local | 10.100.30.140 |
 
 #### Description of Table Columns:
